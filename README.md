@@ -4,15 +4,17 @@ Cloud Resume page build with HTML and CSS.
 
 ## Getting Started
 
-Clone the repo and make it yours!
+Just clone the repo and customize it!
 
-If you found this useful please leave a start on Github.
+If you like this repo please leave me a start on Github.
 
 ## Contributing
 
+If you want to add new features to this template:
+
 - Fork and Clone the repo.
-- Create a new branch with your name, add your changes.
-- Submit a pull request.
+- Create a new branch with your name, then add your changes (new code/features).
+- Finally submit a pull request.
 
 ## Versioning
 
@@ -20,4 +22,6 @@ If you found this useful please leave a start on Github.
 
 ## Author
 
-- **Efren Abraham Tavarez** - _Initial work_ - [AbeTavarez](https://github.com/AbeTavarez)
+If you need to contact me:
+
+- **Abraham E. Tavarez** - _Initial work_ - [AbeTavarez](https://www.linkedin.com/in/efrenabrahametavarez/)
