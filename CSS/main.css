@@ -1,0 +1,45 @@
+
+.logo {
+    margin-left: 55px;
+    font-size: 22px;
+}
+
+.links span{
+    display: block;
+}
+
+.profile-pic {
+    width: 350px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 5px;
+}
+
+.top-hr {
+    margin-top: 20px;
+}
+
+.listing li{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+li {
+    list-style-type: disc;
+}
+
+.ex-header h6 {
+    font-weight: 500;
+}
+
+.ex-header p {
+  font-style: italic;
+}
+
+.skills-bar {
+    max-width: 300px;
+    margin-top: 100px;
+}
+
+.skills-bar span {
+    font-weight: bold;
+}
