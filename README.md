@@ -3,7 +3,7 @@
 Cloud Resume page build with HTML and CSS.
 
 - The Materialize Library was added to the project for easy styling.
-Learn more here [Materialize](https://materializecss.com/getting-started.html)
+Learn more here -> [Materialize](https://materializecss.com/getting-started.html)
 
 ## Getting Started
 

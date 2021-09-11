@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+/* ABOUT THE COLOR */
+/* The color of the navigation bar was added on the first div of the navigation bar  */
+/* Learn how to edit the color here https://materializecss.com/color.html */
+
 .logo {
     margin-left: 55px;
     font-size: 22px;
