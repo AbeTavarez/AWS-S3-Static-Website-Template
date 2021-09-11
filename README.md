@@ -1,6 +1,9 @@
-# AWS-S3-Static-Webdsite-Template
+# AWS-S3-Static-Website-Template
 
 Cloud Resume page build with HTML and CSS.
+
+- The Materialize Library was added to the project for easy styling.
+Learn more here [Materialize](https://materializecss.com/getting-started.html)
 
 ## Getting Started
 

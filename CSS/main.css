@@ -1,4 +1,7 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 .logo {
     margin-left: 55px;
     font-size: 22px;
@@ -9,7 +12,8 @@
 }
 
 .profile-pic {
-    width: 350px;
+    margin-left: 50px;
+    width: 250px;
     height: 200px;
     border-radius: 10%;
     margin-top: 5px;
