@@ -4,24 +4,30 @@ Cloud Resume/Portfolio webpage build with HTML and CSS.
 
 ## Getting Started
 
-Steps:
-* Getting started:
-    1. Click on the green 'Code' button, then click on Download Zip.
+### Steps
+
+#### Getting started
+
+1.Click on the green 'Code' button, then click on Download Zip.
     2. Open the zip file and extract the folder to your desktop.
     3. Open the folder with VSCode.
 
-* Editing the files:
-    1. Start by adding you personal info to the HTML file. You can also edit the sections names as you like.
+    
+
+#### Editing the files
+
+1. Start by adding you personal info to the HTML file. You can also edit the sections names as you like.
     2. Personalize it by editing the CSS file.
 
     * Note: The Materialize Library was added to the project template for easy styling.
     Learn more here -> [Materialize](https://materializecss.com/getting-started.html) or you can remove the Materialize library by deleting the CDN script line on the HTML file.
 
-* Deployment:
-    * Deploy this site on AWS S3:
+#### Deployment
+
+* Deploy this site on AWS S3:
         1. Create a new Bucket with your name and lastname.
         2. Upload the necessary files to the new bucket.
-        
+
         * Note: You don't need to upload the README.md File.
 
         3. Make the necessary files public.
