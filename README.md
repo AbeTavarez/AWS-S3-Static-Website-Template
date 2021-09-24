@@ -19,11 +19,11 @@ Cloud Resume/Portfolio webpage build with HTML and CSS.
     Learn more here -> [Materialize](https://materializecss.com/getting-started.html) or you can remove the Materialize library by deleting the CDN script line on the HTML file.
 
 * Deploying on AWS S3:
-        1. Create a new Bucket with your name and lastname.
-        2. Upload the necessary files to the new bucket.
-        3. Make the necessary files public.
-        4. Enable static website hosting on the S3 bucket.
-    [S3 Configuration Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
+
+    1. Create a new Bucket with your name and lastname.
+    2. Upload the necessary files to the new bucket.
+    3. Make the necessary files public.
+    4. Enable static website hosting on the S3 bucket. [S3 Configuration Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
         
 
 ## Contributing
