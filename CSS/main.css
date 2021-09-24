@@ -52,3 +52,8 @@ li {
 .skills-bar span {
     font-weight: bold;
 }
+
+.project-img {
+    width: 300px;
+    height: 200px;
+}
