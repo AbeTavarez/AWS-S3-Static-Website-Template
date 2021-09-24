@@ -25,10 +25,10 @@
         </div>
     </nav>
     <!--MAIN-->
-    <div class="container">
+    <main class="container">
 
         <!------------------- INTRO ---------------------------------------------------------->
-        <div class="row">
+        <section class="row">
             <div class="col s6">
                 <h3 class="purple-text text-lighten-1">My Name</h3>
                 <h5 class="">My Title</h5>
@@ -48,9 +48,9 @@
                  <img class="profile-pic z-depth-5" src="/assets/user-image.png" alt="">
                 
             </div>
-        </div>
+        </section>
         <!------------------- PROFESSIONAL SUMMARY ---------------------------------------------------------->
-        <div class="row" id="summary">
+        <section class="row" id="summary">
             <div class="col s6">
                 <h5 class="purple-text text-lighten-1">Professional Summary</h5>
             </div>
@@ -61,57 +61,70 @@
                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus inventore adipisci repellat ipsum sint facere dignissimos optio! Quaerat ullam obcaecati accusamus eaque quo, sunt, tempora incidunt error tempore laborum rerum.
                 </p>
             </div>
-        </div>
+        </section>
          <!------------------- TECHNICAL SKILLS ---------------------------------------------------------->
-    <div class="row" id="tech">
-        <div class="col s6">
-            <h5 class="purple-text text-lighten-1">Technical Skills</h5>
-
-            <div class="skills-bar">
-                <span class="deep-purple-text lighten-2">DevOps:</span> Cloud Computing, Python, Linux, Unix, Windows, Networking, Security, Chef, Puppet,
-                Ansible, Jenkins, Docker, CloudFormation, EC2, CloudWatch, VPC, Security Groups, RDS, IaaS, PaaS, SaaS, CaaS, Apache, Kubernetes.
-
+        <section class="row" id="tech">
+            <div class="col s6">
+                <h5 class="purple-text text-lighten-1">Technical Skills</h5>
+            
+                <!------------------- SKILLS LEFT HAND SIDE BAR ---------------------------------------------------------->
+                <div class="skills-bar">
+                    <span class="deep-purple-text lighten-2">DevOps:</span> Cloud Computing, Python, Linux, Unix, Windows,
+                    Networking, Security, Chef, Puppet,
+                    Ansible, Jenkins, Docker, CloudFormation, EC2, CloudWatch, VPC, Security Groups, RDS, IaaS, PaaS, SaaS, CaaS,
+                    Apache, Kubernetes.
+            
+                </div>
+            
+                <div class="skills-bar">
+                    <span class="deep-purple-text lighten-2">Back-End:</span> Development: NodeJS, Express, Flask, Ruby, Rails,
+                    MySQL, PostgreSQL, MongoDB, OAuth, JWT, Elasticsearch, REST, APIs.
+                </div>
+            
+                <div class="skills-bar">
+                    <span class="deep-purple-text lighten-2">Front-End:</span> Development: JavaScript, React, Redux, Next-JS,
+                    Gatsby, Electron, BootStrap, Webpack, Babel, Git, ESLint.
+                </div>div>
             </div>
 
-             <div class="skills-bar">
-                <span class="deep-purple-text lighten-2">Back-End:</span> Development: NodeJS, Express, Flask, Ruby, Rails, MySQL, PostgreSQL, MongoDB, OAuth, JWT, Elasticsearch, REST, APIs.
-             </div>
-
-             <div class="skills-bar">
-                 <span class="deep-purple-text lighten-2">Front-End:</span> Development: JavaScript, React, Redux, Next-JS, Gatsby, Electron, BootStrap, Webpack, Babel, Git, ESLint.
-             </div>
-
-        </div>
-
-        <div class="col s6">
-            <hr>
-            <div class="ex-header">
-                <h6>PerScholas / AWS re/Start</h6>
-                <p>January 2021 - May 2021, New York City</p>
-            </div>
+            <!------------------- SKILLS RIGHT HAND SIDE DETAILS ---------------------------------------------------------->
+            <div class="row col s6">
+                <hr>
+                <div class="ex-header">
+                    <h6>PerScholas / AWS re/Start</h6>
+                    <p>January 2021 - May 2021, New York City</p>
+                </div>
                 <ul class="listing">
-                        <li style="list-style-type: disc;">
-                           Recently completed 15 weeks of hands-on technical instruction at AWS Re/Start Program.
-                        </li>
-                        <li style="list-style-type: disc;">
-                           Deployed several websites, servers and applications to the AWS cloud infrastructure with all necessary resources using, EC2,  S3, Cloudfront, and Route53.
-                        </li>
-                        <li style="list-style-type: disc;">
-                           Managed users, and resources using IAM and  following best practices; setting-up policies, security groups, alarms, monitoring performance & usage and logging.
-                        </li>
-                        <li style="list-style-type: disc;">
-                           Configured and managed multiple databases (Aurora, MySQL, ) with multi-AZ and replication features.
-                        </li>
-                        <li style="list-style-type: disc;">
-                           Created CloudFormation (CaaS) JSON templates to automate critical tasks including  auto scaling groups to ensure high availability.
-                        </li>
-                        <li style="list-style-type: disc;">
-                           Implemented AI frameworks and intelligent tearing to RDS databases and  S3 object storage to maximize performance and cost effective practices.
-                        </li>
+                    <li style="list-style-type: disc;">
+                        Completed 15 weeks of hands-on technical instruction at AWS Re/Start Program.
+                    </li>
+                    <li style="list-style-type: disc;">
+                        Deployed several websites, servers and applications to the AWS cloud infrastructure with all necessary
+                        resources using, EC2, S3, Cloudfront, and Route53.
+                    </li>
+                    <li style="list-style-type: disc;">
+                        Managed users, and resources using IAM and following best practices; setting-up policies, security groups,
+                        alarms, monitoring performance & usage and logging.
+                    </li>
+                    <li style="list-style-type: disc;">
+                        Configured and managed multiple databases (Aurora, MySQL, ) with multi-AZ and replication features.
+                    </li>
+                    <li style="list-style-type: disc;">
+                        Created CloudFormation (CaaS) JSON templates to automate critical tasks including auto scaling groups to
+                        ensure high availability.
+                    </li>
+                    <li style="list-style-type: disc;">
+                        Implemented AI frameworks and intelligent tearing to RDS databases and S3 object storage to maximize
+                        performance and cost effective practices.
+                    </li>
                 </ul>
-                
-     
-        </div>
+            
+            
+            </div>
+
+        </section>
+
+        
     </div>
     
 <!------------------- PROFESSIONAL EXPERIENCE ---------------------------------------------------------->
@@ -173,20 +186,20 @@
         <div class="col s6">
             <hr>
             <div class="projects-list">
-                <div class="">
-                    <div>My Game - <a href="https://github.com">Play Game</a></div>
+                <div class="project">
+                    <div><b>My Game - </b><a href="https://github.com">Play Game</a></div>
                     <img class="project-img" src="https://i.guim.co.uk/img/media/c6f7b43fa821d06fe1ab4311e558686529931492/168_84_1060_636/master/1060.jpg?width=700&quality=85&auto=format&fit=max&s=042a88bef130adc8935c1d9af80f5140" alt="">
                 </div>
-                <div>
+                <div class="project">
                     
-                    <div>E-Commerce Website - <a href="https://aws.s3.com">Shop Now!</a></div>
+                    <div><b>E-Commerce Website -</b> <a href="https://aws.s3.com">Shop Now!</a></div>
                     <img class="project-img" src="https://colorlib.com/wp/wp-content/uploads/sites/2/makeupartist-colorlib-template.jpg.webp" alt="">
                 </div>
             </div>
         </div>
     </div>
 
-    </div>
+</main>
     
 </body>
 </html>

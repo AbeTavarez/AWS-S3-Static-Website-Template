@@ -32,6 +32,7 @@
     margin-left: 25px;
     margin-top: 5px;
 }
+
 li {
     list-style-type: disc;
 }
@@ -46,11 +47,15 @@ li {
 
 .skills-bar {
     max-width: 300px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .skills-bar span {
     font-weight: bold;
+}
+
+.project {
+    margin-top: 10px;
 }
 
 .project-img {
